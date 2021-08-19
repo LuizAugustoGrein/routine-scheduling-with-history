@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Histórico de Atividades</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />;
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1 class="card-header">Histórico de Atividades</h1>
+                <div class="card-body">
+                    <button class="btn btn-primary" type="button" id="voltar" onclick="window.location.href = 'index.html'">Voltar</button>
+                    <div id="grupo-lista">
+                    </div>
+                    <div class="botao">
+                        <button class="btn btn-primary limpar_historico" type="button" onclick="limparHistorico()">Limpar o Histórico</button>
+                    </div>
+                </div>
+                <footer><p class="nome">Luiz Augusto Grein</p><p class="data_criacao">Dezembro de 2020.</p></footer>
+            </div>   
+        </div> 
+        <script src="js/historico.js"></script>
+    </body>
+</html>

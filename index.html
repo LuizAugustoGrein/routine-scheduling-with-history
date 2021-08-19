@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Agendamento de Rotina</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="shortcut icon" href="images/icon.ico" type="image/x-icon" />;
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h1 class="card-header">AGENDAMENTO DE ROTINA</h1>
+                <div class="card-body">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control proposta" placeholder="Digite uma proposta." name="proposta" autofocus>
+                        <input name="dia" type="datetime-local" class="form-control data">
+                        </select>
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="button" id="botao">INSERIR</button>
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div id="erro"></div>
+                    </div>
+                    <div id="grupo-lista">
+                    </div>
+                    <div class="botao">
+                        <button class="btn btn-primary historico" type="button" onclick="window.location.href = 'historico.html'">HISTÓRICO DE ATIVIDADES</button>
+                    </div>
+                </div>
+                <footer><p class="nome">Luiz Augusto Grein</p><p class="data_criacao">Dezembro de 2020.</p></footer>
+            </div>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>

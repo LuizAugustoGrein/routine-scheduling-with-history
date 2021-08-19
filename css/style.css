@@ -1,0 +1,90 @@
+.list-group-item{
+    cursor: pointer;
+}
+
+.card{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 700px;
+}
+
+.card-header{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}
+
+.opcoes{
+    text-align: center;
+    width: calc(40% + 20px);
+    margin: 20px 20px;
+    margin-top: 10px;
+}
+
+.historico{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 250px;
+    border-bottom: 200px;
+}
+
+footer{
+    background-color: #f7f7f7;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.nome, .data_criacao{
+    width: 100%;
+    text-align: center;
+}
+
+.nome{
+    margin-top: 17px;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+.data_criacao{
+    margin-top: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#voltar{
+    position: relative;
+    left: 100%;
+    transform: translateX(-100%); 
+}
+
+.deletar{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 250px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.limpar_historico{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); 
+    width: 200px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.espacamento{
+    width: 100%;
+    height: 60px;
+}
+
+@media screen and (max-width: 800px){
+    .card{
+        width: 90%;
+    }
+}
